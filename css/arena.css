@@ -138,7 +138,9 @@ video {
 #post-title {
     display: none;
 }
-#post-desc{}
+#post-desc{
+    display: none;
+}
 
 .post-embed{
     text-align: center;
