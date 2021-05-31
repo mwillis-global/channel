@@ -13,7 +13,7 @@ body{
     font-family: 'ArialMT', Helvetica Neue, Helvetica, sans-serif;
     font-size: 1rem;
     line-height: 1.3;
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.9);
     background-color: #353535;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
