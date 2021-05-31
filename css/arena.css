@@ -193,10 +193,13 @@ video {
     width: 100%;
 }
     
-.link-box img{
-    width: 150px;
+.link-box{
+    flex-direction: column;
 }
 
+.link-box img{
+    width: 100%;
+}
 
 }
 
