@@ -5,13 +5,14 @@
 }
 
 html{    
-    font-size: 15px;
+    font-size: 16px;
     height: 100%;
 }
 
 body{
-    font-family: 'ArialMT', Helvetica Neue, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
     line-height: 1.3;
     color: rgba(255, 255, 255, 0.9);
     background-color: #353535;
@@ -97,100 +98,127 @@ video {
 
 #arena{
     position: relative;
-    margin-top: 40px;
+    padding: 60px 0;
 }
 
 /* ARENA TEMPLATES */
 
 #posts-container {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+    width: 768px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .post {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    margin: 60px 0;
+    border-radius: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.post:hover { transform: scale(1.025);
+    
+    box-shadow:  23px 23px 60px #111,
+             -23px -23px 60px #444;
+
 }
 
 .post img{
-    max-height: 100vh;
-    width: auto;
-    padding: 1px;
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+    align-self:flex-start;
+    
+
+}
+
+.link-box img{
+    width: 250px;
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+
 }
 
 .post p{
-    display: block;
-    padding: 10px 0;
-    width: 80vw;
-    margin:0 auto;
-    text-align: center;
+    padding: 10px;
 }
 
-.post p a:link{
-    border-bottom: 1px solid rgba(0,0,0,.9);
+.link-box{
+    display:flex;
+    flex-direction: row;
 }
 
-#post-title {
+.link-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+.post-desc{
     display: none;
 }
-#post-desc{
-    display: none;
+
+.post-source{
+    padding: .3rem .4rem; 
+    font-size: .6rem;
+    color: rgba(255,255,255,.2);
+    font-weight: normal;
+    border-radius: 20px;
+    color: #000;    
+    align-self: flex-start;
+
+
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size:1500% 1500%;
+
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
 }
 
-.post-embed{
-    text-align: center;
-    min-width: 300px !important;
-}
 
-.post-image{ 
-    display: block;
-    margin: 0 auto;
-}
 
-.post-text {
-    padding: 80px 0;
-}
-
-.post-link img{
-    margin: 0 auto;
-}
 
 
 /* MOBILE */
 
 @media only screen and (max-width: 768px) {
     
-.post-image{
-    max-width: 100vw;
-}    
-.post-embed{
-    position: relative;
-    overflow: hidden;
-    padding-top: 62.5% !important;
-    width: 95vw;
+    
+#posts-container {
+    width: 100%;
 }
     
-.post-embed iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+.link-box img{
+    width: 150px;
 }
+
 
 }
 
-@font-face {  
-  font-family: 'ArialMT';
-  font-weight: normal;
-  font-style: normal;
-  src: url('https://files.cargocollective.com/c865891/ArialMT.woff') format('woff'),
-       url('https://files.cargocollective.com/c865891/ArialMT.woff2') format('woff2'), 
-       url('https://files.cargocollective.com/c865891/ArialMT.ttf') format('truetype');
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
