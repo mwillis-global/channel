@@ -15,7 +15,7 @@
     page: 0,
     direction: "desc",
     sort: "position",
-    per: 6
+    per: 9
   };
 
   loading = false;
@@ -77,9 +77,9 @@
     var imageTemplate;
     imageTemplate = getTemplate("#imageTemplate");
     if (post.generated_title !== "Untitled") {  
-    $("#post-title", imageTemplate).html(post.generated_title);
+    $(".post-title", imageTemplate).html(post.generated_title);
     }
-    $("#post-desc", imageTemplate).html(post.description_html);
+    $(".post-desc", imageTemplate).html(post.description_html);
     $("a.hyperlink", imageTemplate).attr("href", 'https://www.are.na/block/' + post.id);
     $("img", imageTemplate).attr("src", post.image.original.url);
     return imageTemplate;
@@ -89,10 +89,10 @@
     var textTemplate;
     textTemplate = getTemplate("#textTemplate");
     if (post.generated_title !== "Untitled") {
-    $("#post-title", textTemplate).text(post.generated_title);
+    $(".post-title", textTemplate).text(post.generated_title);
     }
     $("a.hyperlink", textTemplate).attr("href", 'https://www.are.na/block/' + post.id);
-    $("#post-content", textTemplate).html(post.content_html);
+    $(".post-content", textTemplate).html(post.content_html);
     return textTemplate;
   };
 
@@ -100,12 +100,12 @@
     var mediaTemplate;
     mediaTemplate = getTemplate("#mediaTemplate");
     if (post.generated_title !== "Untitled") {  
-    $("#post-title", mediaTemplate).html(post.generated_title);
+    $(".post-title", mediaTemplate).html(post.generated_title);
     }
-    $("#post-desc", mediaTemplate).html(post.description_html);
-    $("#post-content", mediaTemplate).html(post.embed.html);
-    $("a.hyperlink", mediaTemplate).attr("href", post.source.url);
-    $("#post-source", mediaTemplate).html(post.source.url);
+    $(".post-desc", mediaTemplate).html(post.description_html);
+    $("img", mediaTemplate).attr("src", post.image.display.url);
+    $("a", mediaTemplate).attr("href", post.source.url);
+    $(".post-source", mediaTemplate).html(post.source.url);
     return mediaTemplate;
   };
 
@@ -113,12 +113,12 @@
     var template;
     template = getTemplate("#linkTemplate");
     if (post.generated_title !== "Untitled") {  
-    $("#post-title", template).html(post.generated_title);
+    $(".post-title", template).html(post.generated_title);
     }
-    $("#post-desc", template).html(post.description_html);
-    $("a.hyperlink", template).attr("href", post.source.url);
+    $(".post-desc", template).html(post.description_html);
+    $("a", template).attr("href", post.source.url);
     $("img", template).attr("src", post.image.display.url);
-    $("#post-source", template).html(post.source.url);
+    $(".post-source", template).html(post.source.url);
     return template;
   };
 
