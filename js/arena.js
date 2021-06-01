@@ -103,7 +103,7 @@
     $(".post-title", mediaTemplate).html(post.generated_title);
     }
     $(".post-desc", mediaTemplate).html(post.description_html);
-    $("img", mediaTemplate).attr("src", post.image.display.url);
+    $("img", mediaTemplate).attr("src", post.image.thumb.url);
     $("a", mediaTemplate).attr("href", post.source.url);
     $(".post-source", mediaTemplate).html(post.source.url);
     return mediaTemplate;
@@ -116,8 +116,8 @@
     $(".post-title", template).html(post.generated_title);
     }
     $(".post-desc", template).html(post.description_html);
+    $("img", template).attr("src", post.image.thumb.url);
     $("a", template).attr("href", post.source.url);
-    $("img", template).attr("src", post.image.display.url);
     $(".post-source", template).html(post.source.url);
     return template;
   };
