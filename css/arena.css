@@ -40,6 +40,32 @@ video {
     height: auto;
 }
 
+#top{
+    display:inline-block;
+    position:fixed;
+    bottom:0;
+    left:50%;
+    margin:1rem 1rem 1rem -20px;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    font-family:  "Neue Haas Grotesk", Icons;
+    font-size:1rem !important; 
+    text-transform: uppercase;
+    background-color: rgba(34, 34, 34, 0.8);
+    color:rgba(255, 255, 255, 0.8);
+    z-index:999;
+    cursor:pointer;
+    
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+
 
 /* Loader */
 
@@ -198,7 +224,7 @@ video {
 }
     
 .intro-wrap {
-    margin-top: 80px;
+    margin-top: 90px;
 }
     
 .intro{  
@@ -261,3 +287,4 @@ video {
     text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
   }
 }
+
