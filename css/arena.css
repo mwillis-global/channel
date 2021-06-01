@@ -92,7 +92,7 @@ video {
     padding: 25px 30px;
     border-radius: 30px;
     font-weight: 500;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 .intro a{
@@ -108,8 +108,8 @@ video {
 
 #arena{
     position: relative;
-    padding-bottom:30px;
 }
+
 
 #posts-container {
     width: 768px;
@@ -194,6 +194,10 @@ video {
     
 #posts-container {
     width: 100%;
+}
+    
+.intro-wrap {
+    margin-top: 60px;
 }
     
 .intro{  
