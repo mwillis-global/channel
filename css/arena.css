@@ -83,6 +83,7 @@ video {
 .intro-wrap {
     max-width: 768px;
     margin:0 auto;
+    margin-top: 40px;
 }
 
 .intro {
@@ -194,6 +195,11 @@ video {
 #posts-container {
     width: 100%;
 }
+    
+.intro{  
+    padding: 15px 20px;
+}
+
  
 .link-box{
     flex-direction: column;
@@ -202,7 +208,7 @@ video {
 .link-box img{
     width: 100%;
     border-radius: 10px 10px 0 0;
-
+    align-self: flex-start !important;
 }
 
 }
