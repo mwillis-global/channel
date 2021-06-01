@@ -108,8 +108,8 @@ video {
 
 #arena{
     position: relative;
+    padding-bottom:30px;
 }
-
 
 #posts-container {
     width: 768px;
