@@ -83,10 +83,30 @@
 </div><!-- END TEMPLATES -->        
 </div><!-- END ARENA -->
     
+    
+<a id="top" style="display: none;">↑</a>
+    
 <!-- JS -->    
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/arena.js"></script>
+    
+<script>
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 400) {
+      $("#top").fadeIn("slow");
+    }
+    else {
+      $("#top").fadeOut("fast");
+    }
+});
+  
+$('#top').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+});
+
+</script>
     
 </body>
 </html>
