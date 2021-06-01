@@ -80,7 +80,7 @@
     $(".post-title", imageTemplate).html(post.generated_title);
     }
     $(".post-desc", imageTemplate).html(post.description_html);
-    $("a.hyperlink", imageTemplate).attr("href", 'https://www.are.na/block/' + post.id);
+    $("a.block", imageTemplate).attr("href", 'https://www.are.na/block/' + post.id);
     $("img", imageTemplate).attr("src", post.image.original.url);
     return imageTemplate;
   };
@@ -91,7 +91,7 @@
     if (post.generated_title !== "Untitled") {
     $(".post-title", textTemplate).text(post.generated_title);
     }
-    $("a.hyperlink", textTemplate).attr("href", 'https://www.are.na/block/' + post.id);
+    $("a.block", textTemplate).attr("href", 'https://www.are.na/block/' + post.id);
     $(".post-content", textTemplate).html(post.content_html);
     return textTemplate;
   };
