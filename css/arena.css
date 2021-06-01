@@ -77,17 +77,42 @@ video {
   animation: dots .65s steps(5, end) infinite;
 }
 
-/* ARENA */
+
+/* Intro */
+
+.intro-wrap {
+    max-width: 768px;
+    margin:0 auto;
+}
+
+.intro {
+    background-color: rgba(0,0,0,.5);
+    margin: 20px;
+    padding: 25px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.intro a{
+    color: #9cffc7;
+}
+
+.intro p{
+    padding: 5px;
+}
+
+
+/* ARE.NA */
 
 #arena{
     position: relative;
-    padding: 20px 0;
 }
 
 
 #posts-container {
     width: 768px;
-    padding: 20px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -139,6 +164,10 @@ video {
     display: none;
 }
 
+.post-text {
+    padding: 15px;
+}
+
 .post-source{
     padding: .3rem .5rem; 
     margin-top:.5rem;
@@ -157,10 +186,6 @@ video {
     -o-animation: rainbow 18s ease infinite;
     animation: rainbow 18s ease infinite;
 }
-
-
-
-
 
 /* Mobile */
 
@@ -225,3 +250,4 @@ video {
     text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
   }
 }
+
