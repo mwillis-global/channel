@@ -118,6 +118,7 @@ video {
     padding: 25px 30px;
     border-radius: 30px;
     font-size: 1rem;
+    font-weight:500;
 }
 
 .intro a{
