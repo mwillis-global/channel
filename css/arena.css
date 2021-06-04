@@ -87,7 +87,8 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #000;
+    color:#fff;
     
     z-index: 999;
     visibility: hidden;
