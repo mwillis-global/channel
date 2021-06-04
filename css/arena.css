@@ -87,8 +87,8 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    
     z-index: 999;
     visibility: hidden;
     opacity: 0;
@@ -97,6 +97,7 @@ video {
     -moz-transition: opacity 100s, visibility 1.3s;
     transition: opacity 100s, visibility 1.3s;    
 }
+
 
 #loading:after {
   content: ".";
@@ -287,4 +288,3 @@ video {
     text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
   }
 }
-
