@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "mwillis-global"
+    channelslug: "channel-1l2my4k9a-y"
   };
 
   posts = [];
