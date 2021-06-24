@@ -199,6 +199,7 @@ video {
 }
 
 .post-source{
+    overflow-wrap: break-word;
     padding: .3rem .5rem; 
     margin-top:.5rem;
     font-size: .6rem;
