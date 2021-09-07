@@ -89,6 +89,7 @@ video {
     justify-content: center;
     background-color: #000;
     color: #fff;
+    font-weight: 400;
     z-index: 999;
     visibility: hidden;
     opacity: 0;
@@ -280,19 +281,18 @@ video {
 @keyframes dots {
   0%,
   20% {
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0.25em 0 0 rgba(255, 255, 255, 0), 0.5em 0 0 rgba(255, 255, 255, 0);
   }
   40% {
-    color: black;
-    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    color: white;
+    text-shadow: 0.25em 0 0 rgba(255, 255, 255, 0), 0.5em 0 0 rgba(255, 255, 255, 0);
   }
   60% {
-    text-shadow: 0.25em 0 0 black, 0.5em 0 0 rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 rgba(255, 255, 255, 0);
   }
   80%,
   100% {
-    text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
-
