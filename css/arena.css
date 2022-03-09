@@ -104,38 +104,12 @@ video {
 }
 
 
-/* Intro */
-
-.intro-wrap {
-    max-width: 768px;
-    margin:0 auto;
-    margin-top: 80px;
-}
-
-.intro {
-    background-color: rgba(0,0,0,.5);
-    margin: 20px;
-    padding: 25px 30px;
-    border-radius: 30px;
-    font-weight: 500;
-    font-size: 1rem;
-}
-
-.intro a{
-    color: #9cffc7;
-}
-
-.intro p{
-    padding: 5px;
-}
-
-
 /* ARE.NA */
 
 #arena{
     position: relative;
     padding-bottom: 30px;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 
@@ -210,7 +184,7 @@ video {
     padding:0 !important;
     margin: 5px 0!important;
     
-        overflow: hidden;
+   overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
    -webkit-line-clamp: 2; /* number of lines to show */
@@ -248,7 +222,7 @@ video {
 @media only screen and (max-width: 768px) {
 
 #arena{
-    margin-top:8rem;
+    margin-top:2rem;
 }
     
 #posts-container {
