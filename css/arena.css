@@ -135,20 +135,20 @@ video {
 #arena{
     position: relative;
     padding-bottom: 30px;
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
 
 
 #posts-container {
     max-width: 1200px;
     padding: 0 20px;
-    /margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .post {
     width: 100%;
     background-color: rgba(0,0,0,.5);
-    margin: 60px 0;
+    margin: 0 0 3rem 0;
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
@@ -187,8 +187,10 @@ video {
 
 .cover {
   object-fit: cover;
-  min-width: 300px !important;
-  max-height: 160px !important;
+  min-width: 180px !important;
+  min-height: 120px !important;
+  width: 180px !important;
+  height: 120px !important;
  }
 
 .post-title{
@@ -198,7 +200,7 @@ video {
 }
 
 .post-desc {
-    /*display: none;*/
+    display: none;
     font-weight: 400;
     font-size: .8rem;
     color: rgba(255,255,255,.3);
@@ -244,6 +246,10 @@ video {
 /* Mobile */
 
 @media only screen and (max-width: 768px) {
+
+#arena{
+    margin-top:8rem;
+}
     
 #posts-container {
     width: 100%;
@@ -263,9 +269,11 @@ video {
 }
 
 .link-box img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    align-self: flex-start !important;
+  width: 100% !important;
+  height: 200px !important;
+  border-radius: 10px 10px 0 0;
+  align-self: flex-start !important;
+
 }
 
 }
