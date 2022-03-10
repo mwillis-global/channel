@@ -165,7 +165,7 @@ video {
 
 .cover {
   object-fit: cover;
-  max-height:50px !important;
+  max-height:140px !important;
   width: 100% !important;
             filter: blur(0);
     -webkit-filter: blur(0);
