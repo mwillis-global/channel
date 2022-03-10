@@ -116,7 +116,7 @@
     $(".post-title", template).html(post.generated_title);
     }
     $(".post-desc", template).html(post.description_html);
-    $("img", template).attr("src", post.image.thumb.url);
+    $("img", template).attr("src", post.image.large.url);
     $("a", template).attr("href", post.source.url);
     $(".post-source", template).html(post.source.url);
     return template;
