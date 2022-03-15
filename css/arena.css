@@ -121,7 +121,7 @@ video {
 
 .post {
     width: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(255,255,255,.2);
     margin: 5rem auto;
     border-radius: 10px;
     transition: all .3s ease-in-out;
