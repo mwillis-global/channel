@@ -44,7 +44,8 @@ video {
     display:inline-block;
     position:fixed;
     bottom:0;
-    left:0;
+    left:50%;
+    margin-left:-20px;
     margin:1rem;
     width:40px;
     height: 40px;
