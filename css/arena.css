@@ -44,7 +44,7 @@ video {
     display:inline-block;
     position:fixed;
     left: 0;
-    bottom: 0;
+    top: 0;
     margin:1rem;
     width:40px;
     height: 40px;
@@ -124,6 +124,7 @@ video {
     background-color: rgba(255,255,255,.2);
     margin: 5rem auto;
     border-radius: 10px;
+    border: 1px solid #000;
     transition: all .3s ease-in-out;
     max-width: 700px;
     /max-height: 250px;
@@ -131,7 +132,7 @@ video {
 }
 
 .post:hover { 
-    box-shadow: 23px 23px 60px #111, -23px -23px 60px #444;
+    border: 1px solid #ccc;
 }
 
 .post img{
