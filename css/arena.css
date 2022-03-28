@@ -41,7 +41,7 @@ video {
 }
 
 #top{
-    display:inline-block;
+    display:none;
     position:fixed;
     left: 0;
     top: 0;
