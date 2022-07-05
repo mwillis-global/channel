@@ -86,8 +86,8 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
-    color: #fff;
+    background-color: #FFF;
+    color: #000;
     font-weight: 400;
     z-index: 999;
     visibility: hidden;
@@ -276,18 +276,18 @@ video {
 @keyframes dots {
   0%,
   20% {
-    color: rgba(255, 255, 255, 0);
-    text-shadow: 0.25em 0 0 rgba(255, 255, 255, 0), 0.5em 0 0 rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
   }
   40% {
-    color: white;
-    text-shadow: 0.25em 0 0 rgba(255, 255, 255, 0), 0.5em 0 0 rgba(255, 255, 255, 0);
+    color: black;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
   }
   60% {
-    text-shadow: 0.25em 0 0 white, 0.5em 0 0 rgba(255, 255, 255, 0);
+    text-shadow: 0.25em 0 0 black, 0.5em 0 0 rgba(0, 0, 0, 0);
   }
   80%,
   100% {
-    text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
+    text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
   }
 }
