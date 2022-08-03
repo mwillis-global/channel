@@ -124,6 +124,7 @@ video {
     background-color: rgba(0,0,0,.02);
     margin: 5rem auto;
     border-radius:1rem;
+    overflow: hidden;
     border: 1px solid rgba(0,0,0,.03);
     transition: all .3s ease-in-out;
     max-width: 720px;
