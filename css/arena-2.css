@@ -144,6 +144,8 @@ video {
 
 .link-box{
     flex-direction: column;
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
 .link-box img{
