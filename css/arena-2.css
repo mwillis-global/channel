@@ -109,7 +109,7 @@ video {
 #arena{
     position: relative;
     padding-bottom: 30px;
-    margin-top: 120px;
+    margin-top: 4rem;
 }
 
 
@@ -143,6 +143,19 @@ video {
 }
 
 .link-box{
+    flex-direction: column;
+}
+
+.link-box img{
+  width: 100% !important;
+  height: 200px !important;
+  align-self: flex-start !important;
+
+}
+
+/* Horizontal
+
+.link-box{
     display:flex;
     flex-direction: row;
     overflow: hidden;
@@ -154,6 +167,8 @@ video {
     border-radius: 0;
 
 }
+
+*/
 
 .link-text {
     display: flex;
