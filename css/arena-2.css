@@ -131,7 +131,7 @@ video {
 }
 
 .post:hover { 
-    border: 1px solid #ccc;
+    border: 1px solid rgba(0,108,255,1);
 }
 
 .post img{
