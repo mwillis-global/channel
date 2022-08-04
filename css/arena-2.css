@@ -109,7 +109,7 @@ video {
 #arena{
     position: relative;
     padding-bottom: 30px;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
 }
 
 
@@ -222,7 +222,7 @@ video {
     padding: .3rem 0rem; 
     margin-top:.5rem;
     font-size: .6rem;
-    color: rgba(0, 108, 255, 0.75);
+    color: rgba(0, 0, 0, 0.5);
     font-weight: normal;
     border-radius: 1rem;
     letter-spacing: 0.02rem;
