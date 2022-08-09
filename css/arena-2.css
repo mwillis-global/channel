@@ -131,7 +131,7 @@ video {
 }
 
 .post:hover { 
-    opacity:0.85;
+    opacity:0.5;
 }
 
 .post img{
@@ -151,7 +151,7 @@ video {
 
 .link-box img{
   width: 100% !important;
-  height: 340px !important;
+  height: 300px !important;
   align-self: flex-start !important;
 
 }
