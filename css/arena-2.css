@@ -120,7 +120,7 @@ video {
 
 .post {
     width: 100%;
-    background-color: rgba(0,0,0,.02);
+    background-color: rgba(255,255,255,1);
     margin: 5rem auto;
     border-radius:1rem;
     overflow: hidden;
@@ -150,7 +150,7 @@ video {
 
 .link-box img{
   width: 100% !important;
-  height: 300px !important;
+  height: 240px !important;
   align-self: flex-start !important;
 
 }
