@@ -85,8 +85,8 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFF;
-    color: #000;
+    background-color: #000;
+    color: #FFF;
     font-weight: 400;
     z-index: 999;
     visibility: hidden;
@@ -108,7 +108,7 @@ video {
 #arena{
     position: relative;
     padding-bottom: 30px;
-    margin-top: 4.5rem;
+    margin-top: 5.5rem;
 }
 
 
