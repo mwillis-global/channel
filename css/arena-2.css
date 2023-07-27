@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background:#2b9b2b;
+    background:#333;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
     font-weight: bold;
     font-size: 1.2rem;
@@ -121,7 +121,7 @@ video {
 .post {
     width: 100%;
     background-color: rgba(255,255,255,1);
-    margin: 5rem auto;
+    margin: 2rem auto;
     border-radius:1rem;
     overflow: hidden;
     border: 1px solid rgba(0,0,0,.03);
@@ -142,6 +142,8 @@ video {
     padding: 10px;
 }
 
+/* COVER
+
 .link-box{
     flex-direction: column;
     overflow: hidden;
@@ -154,8 +156,8 @@ video {
   align-self: flex-start !important;
 
 }
+*/
 
-/* Horizontal
 
 .link-box{
     display:flex;
@@ -170,7 +172,7 @@ video {
 
 }
 
-*/
+
 
 .link-text {
     display: flex;
