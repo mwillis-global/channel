@@ -108,7 +108,7 @@ video {
 #arena{
     position: relative;
     padding-bottom: 30px;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 
@@ -121,7 +121,7 @@ video {
 .post {
     width: 100%;
     background-color: rgba(255,255,255,1);
-    margin: 2rem auto;
+    margin: 4rem auto;
     border-radius:1rem;
     overflow: hidden;
     border: 1px solid rgba(0,0,0,.03);
