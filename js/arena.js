@@ -105,7 +105,7 @@
     $(".post-desc", mediaTemplate).html(post.description_html);
     $("img", mediaTemplate).attr("src", post.image.thumb.url);
     $("a", mediaTemplate).attr("href", post.source.url);
-    $(".post-source", mediaTemplate).html(post.source.url);
+    $(".post-source span", mediaTemplate).html(post.source.url);
     return mediaTemplate;
   };
 
@@ -118,7 +118,7 @@
     $(".post-desc", template).html(post.description_html);
     $("img", template).attr("src", post.image.large.url);
     $("a", template).attr("href", post.source.url);
-    $(".post-source", template).html(post.source.url);
+    $(".post-source span", template).html(post.source.url);
     return template;
   };
 
