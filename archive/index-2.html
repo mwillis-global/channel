@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- -->
+    <meta name="description" content="mwillis.global/channel">
+    <meta name="author" content="mwillis.global">
+    <link rel="alternate" type="application/rss+xml" href="https://www.are.na/mwillis-global/channel-1l2my4k9a-y/feed/rss" />
+    <!-- -->
+    <title>mwillis.global/channel</title>
+    <link rel="stylesheet" href="css/arena-2.css"> 
+    
+</head>
+<body>
+    
+         
+<!-- ARENA -->
+	        
+<div id="arena">
+
+    <div id="loading">Loading</div>
+	<div id="posts-container">
+        <!-- content goes here -->
+    </div>
+
+<!-- TEMPLATES -->
+<div style="display: none">
+
+    <div id="postTemplate" class="post">
+        <div id="mediacontainer"></div>
+    </div>
+        
+<!-- IMAGE TEMPLATE --> 
+
+    <div id="imageTemplate" class="post-image">
+        <a href="#" target="_blank" class="block">
+            <img src="" width="" height="" />
+        </a>
+   </div>
+        
+<!-- TEXT TEMPLATE --> 
+
+    <div id="textTemplate" class="post-text">
+        <a href="#" target="_blank" class="block">
+            <div class="post-content"></div>
+        </a>
+    </div>
+        
+<!-- MEDIA TEMPLATE --> 
+
+    <div id="mediaTemplate" class="post-media">
+        <a href="#" target="_blank" class="link-box">
+            <img src="" width="" height="" class="cover"/>
+            <div class="link-text">
+                <div class="post-title"></div>
+                <div class="post-desc"></div>
+                <div class="post-source"></div>
+            </div>
+        </a>  
+    </div>
+
+<!-- LINK TEMPLATE -->        
+        
+    <div id="linkTemplate" class="post-link">
+        <a href="#" target="_blank" class="link-box">
+            <img src="" width="" height="" class="cover"/>
+            <div class="link-text">
+                <div class="post-title"></div>
+                <div class="post-desc"></div>
+                <div class="post-source"></div>
+            </div>
+        </a>       
+    </div>
+		
+</div><!-- END TEMPLATES -->        
+</div><!-- END ARENA -->
+    
+    
+<!-- <a id="top" style="display: none;">↑</a> -->
+    
+<!-- JS -->    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/arena.js"></script>
+    
+<script>
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 400) {
+      $("#top").fadeIn("slow");
+    }
+    else {
+      $("#top").fadeOut("fast");
+    }
+});
+  
+$('#top').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+});
+
+</script>
+    
+</body>
+</html>
