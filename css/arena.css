@@ -263,5 +263,5 @@ video {
 }
 
 @media only screen and (max-width: 768px) {
-   #arena {padding-top: 6rem !important;}
+   #arena {padding-top: 4rem !important;}
 }
