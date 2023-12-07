@@ -100,8 +100,6 @@ video {
 /* ARE.NA */
 #arena {
     position: relative;
-    padding-bottom: 2rem;
-    margin-top: 5rem;
 }
 
 #posts-container {
@@ -219,7 +217,7 @@ video {
 /* Mobile */
 @media only screen and (max-width: 768px) {
     #arena {
-        margin-top: 6rem !important;
+        margin-top: 0;
     }
 
     #posts-container {
