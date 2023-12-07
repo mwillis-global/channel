@@ -222,7 +222,7 @@ video {
 /* Mobile */
 @media only screen and (max-width: 768px) {
     #arena {
-        margin-top: 2rem;
+        margin-top: 6rem;
     }
 
     #posts-container {
