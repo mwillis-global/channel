@@ -132,9 +132,11 @@ video {
     padding: 10px;
 }
 
+
+
 .link-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: hidden;
     border-radius: 1rem;
 }
@@ -142,6 +144,9 @@ video {
 .link-box img {
     display: block;
     border-radius: 0;
+    width: 100% !important;
+    height: 200px !important;
+    align-self: flex-start !important;
 }
 
 .link-text {
@@ -217,22 +222,13 @@ video {
 /* Mobile */
 @media only screen and (max-width: 768px) {
     #arena {
-        margin-top: 0;
+        margin-top: 1rem;
     }
 
     #posts-container {
         width: 100%;
     }
 
-    .link-box {
-        flex-direction: column;
-    }
-
-    .link-box img {
-        width: 100% !important;
-        height: 200px !important;
-        align-self: flex-start !important;
-    }
 }
 
 /* Spectrum */
